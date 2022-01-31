@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>formualaire</title>
+</head>
+<body>
+<center><h1>Inscription en licence</h1></center>
+<form action="https://lassmed.github.io/insat-page/" method="post" name="inscription en licence">
+    <fieldset> <legend align="center">Informations personelles</legend>
+    <center> <label>vontre nom: </label> <input type="text" placeholder="votre nom ?" name="nom" size="15" maxlength="30"> </center><br>
+    <center> <label>vontre Prenom: </label> <input type="text" placeholder="votre Prenom ?" name="prenom" size="15" maxlength="30"> </center><br>
+    <center><label>Date de naissance: </label><input type="date" name="date de naissance"></center><br>
+    <center> <label>votre Age: </label> <input type="number" placeholder="votre Age ?" name="Age" size="3" maxlength="3"> </center><br>
+    <center> <label> votre adresse: </label><textarea name="Adresse" placeholder="votre adresse ?" rows="5" cols="40"></textarea> </center><br>
+    <center><label>Mot de passe: </label><input type="password" name="password" required></center><br>
+    <center><label>Retapez votre mot de passe: </label><input type="password" name="password" required></center><br>
+    <center> <label>vontre email: </label> <input type="email" placeholder="votre email?" name="email" size="15" maxlength="30"> </center><br>
+    <center> <label>vontre site: </label> <input type="url" placeholder="votre site?" name="email" size="15" maxlength="30"> </center><br></fieldset><br>
+    <fieldset> <legend align="center">Gestion des groupes et des options</legend>
+    <center><label> Votre groupe :</label>
+        <input type="radio" name="groupe" id="groupe1" value="groupe1">groupe1
+        <input type="radio" name="groupe" id="groupe2" value="groupe2">groupe2
+        <input type="radio" name="groupe" id="groupe3" value="groupe3">groupe3
+    </center> <br>
+    <center> <label>Numero de carte d'etudiant:</label> <input type="text" placeholder="numero de carte d'etudiant?" name="nce" size="20" maxlength="6"> </center><br>
+    <center><label>Choisissez les options que vous désirez :</label>
+        <select name="option" size="5">
+            <option value="j2ee">J2ee</option>
+            <option value="Android">Android</option>
+            <option value="Net">Net</option>
+            <option value="HTML5">HTML5</option>
+            <option value="Flex">Flex</option></select>
+    </center></fieldset> <br>
+    <CENTER><LABEL>Verification: </LABEL><textarea name="verification" rows="5" cols="40" placeholder="ecrire le code de verification"></textarea> </CENTER><br>
+    <center><INPUT TYPE="submit" VALUE="Valider"> &nbsp &nbsp <INPUT TYPE="reset" VALUE="reinitialiser"></center>
+
+</form>
+
+</body>
+</html>
